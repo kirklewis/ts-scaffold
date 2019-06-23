@@ -1,0 +1,25 @@
+{
+    "name": "ts-scaffold",
+    "version": "0.0.1",
+    "description": "Just a starter TypeScript project",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc --outDir ./dist",
+        "test": "NODE_ENV=test ./node_modules/.bin/mocha --require ts-node/register ./tests/**/*.ts"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.1.0",
+        "@types/mocha": "^2.2.44",
+        "@types/node": "^8.0.53",
+        "chai": "4.1.0",
+        "mocha": "4.0.1",
+        "ts-node": "3.3.0",
+        "typescript": "2.6.2"
+    },
+    "keywords": [
+        "math",
+        "test"
+    ],
+    "author": "Kirk Lewis",
+    "license": "MIT"
+}

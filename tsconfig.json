@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "target": "es2015",
+        "types": [
+            "chai",
+            "mocha"
+        ],
+        "typeRoots": [
+            "typings/global",
+            "typings/module"
+        ],
+        "removeComments": true,
+        "sourceMap": false
+    },
+    "exclude": [
+        "dist",
+        "node_modules",
+        "tests"
+    ]
+}
