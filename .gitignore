@@ -1,4 +1,8 @@
 .DS_Store
+.nyc_output
 
+mocha.opts
+
+coverage
 dist
 node_modules

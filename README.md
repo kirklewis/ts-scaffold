@@ -6,8 +6,14 @@ A starter TypeScript project to get up and running quickly. The [tsconfig.json](
 
 ### Run Tests
 
+Unit tests
 ```bash
-npm test
+npm run test-unit
+```
+
+Unit Tests with coverage report
+```bash
+npm run test-coverage
 ```
 
 ### Build

@@ -1,6 +1,6 @@
 /** sumAll
  * Returns the sum of all the `numbers` supplied.
- * 
+ *
  * @param numbers an array of numbers to add together
  * @returns the sum of all the numbers
  */
