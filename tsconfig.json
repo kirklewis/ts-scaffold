@@ -2,7 +2,13 @@
     "compilerOptions": {
         "module": "commonjs",
         "noImplicitAny": false,
-        "target": "es2015",
+        "lib": [
+            "dom",
+            "es2015",
+            "es6"
+        ],
+        "moduleResolution": "node",
+        "target": "es6",
         "types": [
             "chai",
             "mocha"
@@ -12,7 +18,7 @@
             "typings/module"
         ],
         "removeComments": true,
-        "sourceMap": false
+        "sourceMap": true
     },
     "exclude": [
         "dist",

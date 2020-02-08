@@ -8,4 +8,6 @@ function sumAll(...numbers: number[]): number {
     return numbers.reduce((p, c) => p + c)
 }
 
+
+
 export { sumAll }
