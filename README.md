@@ -8,6 +8,9 @@ A starter TypeScript project to get up and running quickly. The [tsconfig.json](
 
 ```bash
 npm test
+
+# with coverate report
+npm run test:ci
 ```
 
 ### Build
